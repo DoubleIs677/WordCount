@@ -59,7 +59,7 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    printf("%s count: %d\n", (strcmp(parameter, "-c") == 0) ? "Character" : "Word", count);
+    printf("%s count: %d\n", (strcmp(parameter, "-c") == 0) ? "×Ö·û" : "µ¥´Ê", count);
 
     fclose(fp);
 
