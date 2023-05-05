@@ -59,7 +59,7 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    printf("%s count: %d\n", (strcmp(parameter, "-c") == 0) ? "字符" : "单词", count);
+    printf("%s count: %d\n", (strcmp(parameter, "-c") == 0) ? "字符数" : "单词数", count);
 
     fclose(fp);
 
